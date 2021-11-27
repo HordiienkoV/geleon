@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>111</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header-top-line">
+				<div class="header-top-line__logo"><img src="img/logo.svg" alt=""></div>
+				<ul class="header-top-line__nav">
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Доставка</a></li>
+					<li><a href="#">Оплата</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<div class="header-top-line__user">
+					<div class="header-top-line__user-auth">
+						<svg class="icon-user" xmlns="http://www.w3.org/2000/svg">
+							<use href="#user_icon"></use>
+						</svg>
+						<a class="header-top-line__user-link" href="#">Войти</a>
+					</div>
+					<div class="header-cart">
+							<svg xmlns="http://www.w3.org/2000/svg">
+							<use href="#icon_cart"></use>
+							</svg>
+						<span class="header-cart__count">12</span>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom-line">
+				<div class="header-catalog">
+					<div class="header-catalog__burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="header-catalog__title">Каталог товаров</div>
+				</div>
+				<div class="search-form-wrap">
+					<div class="form-line">
+						<form class="search-form">
+							<input type="text" name="" placeholder="Я ищу...">
+							<!-- <button class="search-form__reset" type="reset">
+								<svg xmlns="http://www.w3.org/2000/svg">
+									<use href="#icon_close"></use>
+									</svg>	
+							</button> -->
+							<button class="search-form__submit" type="submit">
+								<svg class="icon-search" xmlns="http://www.w3.org/2000/svg"><use href="#icon_search"></use></svg>
+							</button>
+						</form>
+					</div>
+					<!-- <div class="search-result">
+						<span class="search-result__reserved"></span>
+						<div class="search-result__list">
+							<div class="serch-result__item">
+								<svg class="icon-search-result" xmlns="http://www.w3.org/2000/svg">
+									<use href="#icon_search"></use>
+								</svg>
+								<a href=""><span>Клейкая лен</span>та</a>
+							</div>
+							<svg class="icon-arr-result" xmlns="http://www.w3.org/2000/svg"><use href="#icon_arrov"></use></svg>
+						</div>
+						<div class="search-result__list">
+							<div class="serch-result__item">
+								<svg class="icon-search-result" xmlns="http://www.w3.org/2000/svg">
+									<use href="#icon_search"></use>
+								</svg>
+								<a href=""><span>Клейка</span>я лента</a>
+							</div>
+							<svg class="icon-arr-result" xmlns="http://www.w3.org/2000/svg"><use href="#icon_arrov"></use></svg>
+						</div>
+						<div class="search-result__list">
+							<div class="serch-result__item">
+								<svg class="icon-search-result" xmlns="http://www.w3.org/2000/svg">
+									<use href="#icon_search"></use>
+								</svg>
+								<a href=""><span>Клейкая лента</span></a>
+							</div>
+							<svg class="icon-arr-result" xmlns="http://www.w3.org/2000/svg"><use href="#icon_arrov"></use></svg>
+						</div>
+					</div> -->
+				</div>
+				<div class="header-contact">
+					<a class="header-contact__phone" href="#">8 (812) 952 72 49</a>
+					<a class="header-contact__email" href="#"><svg xmlns="http://www.w3.org/2000/svg">
+							<use href="#icon_email"></use>
+							</svg>sale@ge-leon.ru</a>
+				</div>
+			</div>
+		</header>
+		<main class="content">
+			<div class="breadcrumbs">
+				<ul class="breadcrumbs__list">
+					<li class="breadcrumbs__list-item"><a href="#">Главная</a></li>
+					<li class="breadcrumbs__list-item"><a href="#">Клейкая лента</a></li>
+					<li class="breadcrumbs__list-item"><a href="#">Алюминиевый скотч</a></li>
+				</ul>
+			</div>
+			<h1>Упаковочный скотч и материалы</h1>
+			<ul class="catalog-cat">
+				<li><a href="#">Белый скотч</a></li>
+				<li><a href="#">Скотч с логотипом</a></li>
+				<li><a href="#">Упаковочный скотч</a></li>
+				<li><a href="#">Материалы</a></li>
+				<li><a href="#">Длина 25 метров</a></li>
+				<li><a href="#">Цена от 100 до 5 000 руб</a></li>
+				<li><a href="#">Чёрный скотч</a></li>
+				<li><a href="#">Цена от 100 до 5 000 руб</a></li>
+				<li><a href="#">Цена от 100 до 5 000 руб</a></li>
+			</ul>
+			<div class="msearch2" id="mse2_mfilter">
+				<div class="catalog-content">
+					<div class="catalog-filter">
+						<form action="" method="post" id="mse2_filters">
+							<!-- Начало блока выбранных фильтров на моб. устройствах -->
+							<div class="filter-mobile">
+								<div class="filter-mobile__header">
+									<div class="filter-mobile__title">Фильтры</div>
+									<div class="filter-mobile__close"><svg xmlns="http://www.w3.org/2000/svg">
+										<use href="#icon_close_filter"></use>
+										</svg></div>
+								</div>
+								<div class="filter-mobile__items">
+									<ul class="filter-mobile__item">
+										<li>48 мм <svg class="icon-close-filter" xmlns="http://www.w3.org/2000/svg"><use href="#icon_close"></use></svg></li>
+										<li>50 мм <svg class="icon-close-filter" xmlns="http://www.w3.org/2000/svg"><use href="#icon_close"></use></svg></li>
+										<li>60 мм <svg class="icon-close-filter" xmlns="http://www.w3.org/2000/svg"><use href="#icon_close"></use></svg></li>
+										<li>40 мм <svg class="icon-close-filter" xmlns="http://www.w3.org/2000/svg"><use href="#icon_close"></use></svg></li>
+									</ul>
+									<button class="filter-btn-drop"><span>Сбросить фильтры</span></button>
+								</div>
+							</div>
+							<!-- Конец блока выбранных фильтров на моб. устройствах -->
+								<div id="mse2_msoption" class="filter-wrapper-item">
+									<div class="filter-item-title">Наличие</div>
+									<div class="filter-wrap">
+										<fieldset class="filter-item-fieldset">
+											<label>
+												<input type="radio" name="availability">
+												<p>Готов к отправке</p>
+											</label>
+											<label>
+												<input type="radio" name="availability">
+												<p>Под заказ</p>
+											</label>
+										</fieldset>
+									</div>
+								</div>
+								<div id="mse2_msoption" class="filter-wrapper-item">
+									<div class="filter-item-title">Ширина, мм</div>
+									<div class="filter-wrap">
+										<fieldset class="filter-item-fieldset">
+											<label>
+												<input type="checkbox" name="">
+												<p>48 мм<span>(10)</span></p>
+											</label>
+											<label>
+												<input type="checkbox" name="">
+												<p>48 мм<span>(10)</span></p>
+											</label>
+											<label>
+												<input type="checkbox" name="">
+												<p>48 мм<span>(10)</span></p>
+											</label>
+											<label>
+												<input type="checkbox" name="">
+												<p>48 мм<span>(10)</span></p>
+											</label>
+											<label>
+												<input type="checkbox" name="">
+												<p>48 мм<span>(10)</span></p>
+											</label>
+											<label>
+												<input type="checkbox" name="">
+												<p>48 мм<span>(10)</span></p>
+											</label>
+										</fieldset>
+										<div class="filter-show-more">
+											<span class="filter-show-more__btn">Показать ещё</span>
+											<svg xmlns="http://www.w3.org/2000/svg">
+												<use href="#icon_arrov"></use>
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div id="mse2_msoption" class="filter-wrapper-item">
+									<div class="filter-item-title">Длина, мм</div>
+									<div class="filter-wrap">
+										<fieldset class="filter-item-fieldset">
+											<label>
+												<input type="checkbox" name="">
+												<p>48 мм<span>(10)</span></p>
+											</label>
+											<label>
+												<input type="checkbox" name="">
+												<p>48 мм<span>(10)</span></p>
+											</label>
+											<label>
+												<input type="checkbox" name="">
+												<p>48 мм<span>(10)</span></p>
+											</label>
+											<label>
+												<input type="checkbox" name="">
+												<p>48 мм<span>(10)</span></p>
+											</label>
+											<label>
+												<input type="checkbox" name="">
+												<p>48 мм<span>(10)</span></p>
+											</label>
+										</fieldset>
+										<div class="filter-show-more">
+											<span class="filter-show-more__btn">Показать ещё</span>
+											<svg xmlns="http://www.w3.org/2000/svg">
+												<use href="#icon_arrov"></use>
+											</svg>
+										</div>
+									</div>	
+								</div>
+						</form>
+					</div>
+					<div class="catalog-products">
+							<div class="toolbar-products">
+								<div class="sort-by">
+									<div class="sort-by__title">Сортировка:</div>
+									<div class="sort-by__wrap">
+										<svg class="icon-sort-by" xmlns="http://www.w3.org/2000/svg"><use href="#icon_sort_by"></use></svg>
+										<div class="sort-by__current-mobile">По популярности</div>
+										<svg class="i-arrov" xmlns="http://www.w3.org/2000/svg"><use href="#icon_arrov"></use></svg>
+										<ul class="sort-by__item">
+											<li class="sort-by__item--active">По популярности</li>
+											<li>От новых к старым</li>
+											<li>От дорогих к дешевым</li>
+											<li>От дешевых к дорогим</li>
+											<li>Акция</li>
+										</ul>
+									</div>
+								</div>
+								<div class="mobile-filter-btn">
+									<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_filter_mobile"></use></svg>
+									Фильтры
+								</div>
+								<div class="filter-selected-wrap">
+									<ul class="filter-selected-wrap__items">
+										<li>48 мм
+											<svg class="icon-close-filter" xmlns="http://www.w3.org/2000/svg"><use href="#icon_close"></use></svg>
+										</li>
+										<li>50 мм
+											<svg class="icon-close-filter" xmlns="http://www.w3.org/2000/svg"><use href="#icon_close"></use></svg>
+										</li>
+									</ul>
+									<button class="filter-btn-drop"><span>Сбросить фильтры</span></button>
+								</div>
+							</div>
+					<div id="mse2_results" class="product-items-wrap">
+						<div class="product-item">
+							<div class="product-item__img">
+								<a href="#"><img src="img/img-lenta.jpg" alt=""></a>
+								<div class="product-item__label">Хит продаж</div>
+							</div>
+							<div class="product-item__status">
+								<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_delivery"></use></svg>
+								Готов к отправке
+							</div>
+							<form method="post" class="ms2_form mssaleprice_form">
+								<div class="product-item__name">
+									<a href="">Скотч упаковочный 48мм 140м, 40мкм</a>
+								</div>
+								<div class="product-item__price">1 389 <span>₽/шт</span></div>
+								<div class="product-item__cart-line">
+									<button class="product-item__btn-opt">
+										<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_sale"></use></svg>
+										Оптом дешевле
+									</button>
+									<button type="submit" name="ms2_action" value="cart/add" class="product-item__btn-cart">
+										<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_cart"></use></svg>
+									</button>
+								</div>
+							</form>
+						</div>
+						<div class="product-item">
+							<div class="product-item__img">
+								<a href="#"><img src="img/img-lenta.jpg" alt=""></a>
+							</div>
+							<div class="product-item__status">
+								<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_delivery"></use></svg>
+								Готов к отправке
+							</div>
+							<form method="post" class="ms2_form mssaleprice_form">
+								<div class="product-item__name">
+									<a href="">Скотч упаковочный 48мм 140м, 40мкм</a>
+								</div>
+								<div class="product-item__price">1 389 <span>₽/шт</span></div>
+								<div class="product-item__cart-line">
+									<button class="product-item__btn-opt">
+										<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_sale"></use></svg>
+										Оптом дешевле
+									</button>
+									<button type="submit" name="ms2_action" value="cart/add" class="product-item__btn-cart">
+										<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_in-cart"></use></svg>
+									</button>
+								</div>
+							</form>
+						</div>
+						<div class="product-item">
+							<div class="product-item__img">
+								<a href="#"><img src="img/img-lenta.jpg" alt=""></a>
+							</div>
+							<div class="product-item__status">
+								<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_delivery"></use></svg>
+								Готов к отправке
+							</div>
+							<form method="post" class="ms2_form mssaleprice_form">
+								<div class="product-item__name">
+									<a href="">Скотч упаковочный 48мм 140м, 40мкм</a>
+								</div>
+								<div class="product-item__price">1 389 <span>₽/пог. м</span></div>
+								<div class="product-item__cart-line">
+									<button class="product-item__btn-opt">
+										<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_sale"></use></svg>
+										Оптом дешевле
+									</button>
+									<button type="submit" name="ms2_action" value="cart/add" class="product-item__btn-cart">
+										<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_cart"></use></svg>
+									</button>
+								</div>
+							</form>
+						</div>
+						<div class="product-item">
+							<div class="product-item__img">
+								<a href="#"><img src="img/img-lenta.jpg" alt=""></a>
+							</div>
+							<div class="product-item__status">
+								<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_delivery"></use></svg>
+								Готов к отправке
+							</div>
+							<form method="post" class="ms2_form mssaleprice_form">
+								<div class="product-item__name">
+									<a href="">Скотч упаковочный 48мм 140м, 40мкм</a>
+								</div>
+								<div class="product-item__price">1 389 <span>₽/рул.</span></div>
+								<div class="product-item__cart-line">
+									<button class="product-item__btn-opt">
+										<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_sale"></use></svg>
+										Оптом дешевле
+									</button>
+									<button type="submit" name="ms2_action" value="cart/add" class="product-item__btn-cart">
+										<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_cart"></use></svg>
+									</button>
+								</div>
+							</form>
+						</div>
+						<div class="product-item">
+							<div class="product-item__img">
+								<a href="#"><img src="img/img-lenta.jpg" alt=""></a>
+							</div>
+							<div class="product-item__status">
+								<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_delivery"></use></svg>
+								Готов к отправке
+							</div>
+							<form method="post" class="ms2_form mssaleprice_form">
+								<div class="product-item__name">
+									<a href="">Скотч упаковочный 48мм 140м, 40мкм</a>
+								</div>
+								<div class="product-item__price">1 389 <span>₽/шт</span></div>
+								<div class="product-item__cart-line">
+									<button class="product-item__btn-opt">
+										<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_sale"></use></svg>
+										Оптом дешевле
+									</button>
+									<button type="submit" name="ms2_action" value="cart/add" class="product-item__btn-cart">
+										<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_cart"></use></svg>
+									</button>
+								</div>
+							</form>
+						</div>
+						<div class="product-item">
+							<div class="product-item__img">
+								<a href="#"><img src="img/img-lenta.jpg" alt=""></a>
+							</div>
+							<div class="product-item__status">
+								<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_delivery"></use></svg>
+								Готов к отправке
+							</div>
+							<form method="post" class="ms2_form mssaleprice_form">
+								<div class="product-item__name">
+									<a href="">Скотч упаковочный 48мм 140м, 40мкм</a>
+								</div>
+								<div class="product-item__price">1 389 <span>₽/шт</span></div>
+								<div class="product-item__cart-line">
+									<button class="product-item__btn-opt">
+										<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_sale"></use></svg>
+										Оптом дешевле
+									</button>
+									<button type="submit" name="ms2_action" value="cart/add" class="product-item__btn-cart">
+										<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_cart"></use></svg>
+									</button>
+								</div>
+							</form>
+						</div>
+						<div class="product-item">
+							<div class="product-item__img">
+								<a href="#"><img src="img/img-lenta.jpg" alt=""></a>
+								<div class="product-item__label">Хит продаж</div>
+							</div>
+							<div class="product-item__status">
+								<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_delivery"></use></svg>
+								Готов к отправке
+							</div>
+							<form method="post" class="ms2_form mssaleprice_form">
+								<div class="product-item__name">
+									<a href="">Скотч упаковочный 48мм 140м, 40мкм</a>
+								</div>
+								<div class="product-item__price">1 389 <span>₽/шт</span></div>
+								<div class="product-item__cart-line">
+									<button class="product-item__btn-opt">
+										<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_sale"></use></svg>
+										Оптом дешевле
+									</button>
+									<button type="submit" name="ms2_action" value="cart/add" class="product-item__btn-cart">
+										<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_cart"></use></svg>
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="mse2_pagination pagination">
+						<div class="pagination__prev">
+							<svg xmlns="http://www.w3.org/2000/svg"><use href="#icon_arrov"></use></svg>
+						</div>
+						<ul class="pagination__list">
+							<li class="pagination__list--current">1</li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">...</a></li>
+							<li><a href="#">10</a></li>
+						</ul>
+						<div class="pagination__next">
+							<a href="#"><svg class="pag" xmlns="http://www.w3.org/2000/svg"><use href="#icon_arrov"></use></svg></a>
+						</div>
+					</div>
+
+					<div class="block-description">
+						<h2>Скотч с логотипом: упаковка привлекающая внимание</h2>
+						<p>Успех любого коммерческого <a href="#">проекта</a> зависит от рекламной кампании и продвижения и для этого приходится использовать много методов. Яркий и отличающийся узнаваемым дизайном скотч с логотипом является удобным рекламным инструментом. Такой упаковочный материал, используемый для фиксации формы тары можно отнести к эффективным ПОС-материалам.</p>
+						<p>Фирменный скотч изготавливается с применением разных методов нанесения полезной информации, логотипов и брендов. Применение такой клейкой ленты позволяет не только формировать упаковку, но и воспользоваться дополнительными преимуществами, к которым относятся:</p>
+						<ul>
+							<li>защита товара или продукции от несанкционированного вскрытия;</li>
+							<li>подчеркивание оригинальности товаров и их происхождения;</li>
+							<li>максимальное привлечение внимания конечного потребителя.</li>
+						</ul>
+						<p>Используя брендированный скотч можно выделить свой товар среди аналогов и повысить имидж компании. Недорогой и качественный материал позволит снизить затраты на рекламу и повысить ее эффективность за счет повышения узнаваемости бренда и логотипа.</p>
+						<h3>Скотч с фирменным логотипом вашей компании</h3>
+						<p>Используя брендированный скотч можно выделить свой товар среди аналогов и повысить имидж компании. Недорогой и качественный материал позволит снизить затраты на рекламу и повысить ее эффективность за счет повышения узнаваемости бренда и логотипа. Используя брендированный скотч можно выделить свой товар среди аналогов и повысить имидж компании. Недорогой и качественный материал позволит снизить затраты на рекламу и повысить ее эффективность за счет повышения узнаваемости бренда и логотипа.</p>
+					</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<div class="feedback">
+        <div class="feedback_flex">
+            <div class="feedback_wrapper">
+                <div class="feedback_label">Остались вопросы?</div>
+                <div class="feedback_text">
+                    Оставьте свой номер телефона, <br /> мы свяжемся с вами в течение 10 минут!
+                </div>
+            </div>
+            <form action="" method="post" class="ajax_form af_example feedback_form">
+				<input type="hidden" name="pagetitle" value="Главная"/>
+				<input type="tel" name="phone" placeholder="+7 (000) 000-00-00">
+				<span class="error_phone"></span>
+				<div class="feedback_button">
+					<button type="submit" class="button">Отправить</button>
+				</div>
+				<input type="hidden" name="af_action" value="be33546a229875c4f32a536b55e5b8ba" />
+			</form>                
+        </div>
+    </div>
+	<footer class="footer">
+        <div class="footer_flex">
+            <div class="footer_block info">
+                <div class="footer_label">Контактная информация</div>
+				<ul>
+					<li>СПб, ул.Бестужевская д.10</li>
+					<li><a href="mailto:sale@ge-leon.ru">sale@ge-leon.ru</a></li>
+					<li><a href='tel:+78129527249' class='phone phone_1' title='phone'>+7 (812) 952-72-49</a>,<a href='tel:+78129417249' class='phone phone_2' title='phone'> +7 (812) 941-72-49</a><a href='tel:+79219527285' class='phone phone_3' title='phone'> +7 (921) 952-72-85</a>                        </li>
+					<li>Пн-Пт 09:00 - 17:00</li>
+				</ul>
+            </div>
+            <div class="footer_block nav">
+                <div class="footer_label">Информация</div>
+                <div class="footer_wrapper">
+					<ul  class="header_top_nav">
+						<li><a class="nav-link" href="/o-kompanii">О компании</a></li>
+						<li><a class="nav-link" href="/oplata">Оплата</a></li>
+						<li><a class="nav-link" href="/dostavka/">Доставка</a></li>
+						<li><a class="nav-link" href="/kontakty">Контакты</a></li>
+					</ul>                         
+                </div>
+            </div>
+            <div class="footer_block social">
+                <div class="social_wrapper">
+                	<div class="footer_label">Социальные сети</div>
+                    <a href="https://www.instagram.com/geleon_company/" target="_blank" rel="nofollow" class="footer_social in"><!--noindex-->Instagram<!--/noindex--></a>
+                </div>
+                <div class="social_wrapper">
+                    <div class="footer_label">Мессенджеры</div>
+                    <a href="viber://chat?number=79219527285" class="footer_social vb">Viber</a>
+                    <a href="https://wa.me/79219527285" class="footer_social wa">WhatsApp</a>
+				</div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+        	<div class="footer_bottom_flex">
+            	<a href="politika-konfidenczialnosti">Политика конфиденциальности</a>
+            	<p>ООО “Гелеон” все права защищены © 2020</p>
+        	</div>
+		</div>
+    </footer>
+	<div class="popup-container" style="display: none;">
+		<div class="popup-wrap">
+			<div class="popup-content">
+				<svg xmlns="http://www.w3.org/2000/svg">
+					<use href="#icon_close_filter"></use>
+				</svg>
+				<div class="popup-content__title">Оптом дешевле</div>
+				<ul class="popup-content__list">
+					<li>На сайте представлены цены <span>без учета скидок</span>.</li>
+					<li>При оптовых закупках скидки достигают 15% от цен интернет-магазина.</li>
+					<li>Для получения актуальной цены, звоните по телефону  +7 (812) 952 72 85 или отправьте  ваш запрос.</li>
+				</ul>
+				<div class="requested">
+					<img src="img/img-popup.jpg" alt="">
+					<div class="requested__name-product">Клейкая лента 10 м 12 м 13 м</div>
+				</div>
+				<input class="popup-content__input" type="text" placeholder="Необходимое количество товара">
+				<input class="popup-content__input" type="text" placeholder="Ваш номер телефона">
+				<input class="popup-content__input" type="text" placeholder="Ваш комментарий">
+				<p class="popup-content__info">*Вы можете отправить запрос, как на выбранный товар, так и на группу товаров или прислать запрос в виде заказа.</p>
+				<button class="popup-content__button">Отправить запрос</button>
+				<a class="popup-content__link-policy" href="#">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</div>
+   <?xml version="1.0" encoding="UTF-8"?>
+<svg style="display: none;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<symbol id="icon_cart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 29"><path d="M9.46657 7.02336L13.511 17.989C13.7332 18.5781 14.311 18.8952 14.8888 18.7593L25.511 16.8109C25.6443 16.7656 25.7777 16.6749 25.8221 16.539L28.9777 8.69993C29.2888 7.8843 28.711 6.97805 27.8221 6.97805L9.46657 7.02336ZM0.399902 1.63118C0.399902 0.951489 0.97768 0.362427 1.64435 0.362427H4.44435C5.95546 0.362427 7.33324 1.31399 7.91101 2.8093L8.57768 4.53118H8.62212H27.8666C30.4888 4.53118 32.2666 7.24993 31.2888 9.6968L28.1332 17.5359C27.7777 18.4421 26.9777 19.1218 25.9999 19.3031L15.3777 21.2515C13.6443 21.5687 11.911 20.5718 11.2888 18.8952L5.5999 3.67024C5.42212 3.1718 4.93324 2.85461 4.44435 2.85461H1.64435C0.97768 2.85461 0.399902 2.31086 0.399902 1.63118Z" /><circle cx="13.5" cy="26" r="2" /><circle cx="25.5" cy="26" r="2" /></symbol>
+<symbol id="icon_in-cart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 17"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.668 10.659L5.148 4.99802H15.228C15.714 4.99802 16.074 5.45702 15.948 5.89902L14.616 9.63901C14.49 9.86001 14.256 9.97901 14.022 10.098L8.514 11.118C8.154 11.22 7.92 10.999 7.668 10.659ZM0.72 1.36002C0.36 1.36002 0 1.70002 0 2.15902C0 2.49902 0.36 2.83902 0.72 2.83902H2.034C2.268 2.83902 2.628 2.95802 2.754 3.29802L6.354 11.22C6.714 12.121 7.794 12.699 8.874 12.461L14.274 11.441C15.12 11.322 15.714 10.761 15.966 10.081L17.28 6.34101C17.766 4.98102 16.686 3.51902 15.228 3.51902H4.428L4.068 2.72002C3.708 1.92102 2.862 1.36002 2.034 1.36002H0.72Z" fill="white"/><path d="M8.27993 15.521C8.27993 16.32 7.55993 17 6.71393 17C5.99393 17 5.27393 16.32 5.27393 15.521C5.27393 14.722 5.99393 14.161 6.71393 14.161C7.54193 14.178 8.27993 14.739 8.27993 15.521Z" fill="white"/><path d="M15.714 15.521C15.714 16.32 15.12 17 14.274 17C13.428 17 12.708 16.32 12.708 15.521C12.708 14.722 13.428 14.161 14.274 14.161C15.102 14.178 15.714 14.739 15.714 15.521Z" fill="white"/><path d="M14.994 10.659L15.714 4.19901H4.55396L7.54196 11.339L14.994 10.659Z" fill="white"/><path d="M12.7801 9.86C15.663 9.86 18.0001 7.65276 18.0001 4.93C18.0001 2.20724 15.663 0 12.7801 0C9.89713 0 7.56006 2.20724 7.56006 4.93C7.56006 7.65276 9.89713 9.86 12.7801 9.86Z" fill="#FF484D"/><path fill-rule="evenodd" clip-rule="evenodd" d="M15.588 4.07999C15.822 3.73999 15.822 3.28099 15.588 3.05999C15.228 2.71999 14.742 2.71999 14.508 3.05999L11.988 5.32099L11.034 4.41999C10.8 4.19899 10.314 4.19899 9.95403 4.41999C9.72003 4.75999 9.72003 5.21899 9.95403 5.43999L11.52 6.91899C11.754 7.13999 12.24 7.13999 12.6 6.91899L15.588 4.07999ZM12.708 9.17999C15.228 9.17999 17.28 7.25899 17.28 4.98099C17.28 2.61799 15.228 0.679993 12.708 0.679993C10.314 0.679993 8.28003 2.61799 8.28003 4.98099C8.28003 7.25899 10.314 9.17999 12.708 9.17999Z" fill="white"/></symbol>
+<symbol id="user_icon" viewBox="0 0 28 26" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.6148 7.69605C18.6148 10.244 16.5408 12.324 14 12.324C11.4593 12.324 9.38521 10.244 9.38521 7.69605C9.38521 5.14805 11.4593 3.06805 14 3.06805C16.5408 3.01605 18.6148 5.09605 18.6148 7.69605ZM20.9482 7.69605C20.9482 11.544 17.8371 14.664 14 14.664C10.163 14.664 7.05188 11.544 7.05188 7.69605C7.05188 3.84805 10.163 0.728047 14 0.728047C17.8371 0.676047 20.9482 3.84805 20.9482 7.69605Z"/>
+<path d="M1.81481 25.116C2.85185 25.584 2.85185 25.584 2.85185 25.584C2.85185 25.584 2.85185 25.584 2.85185 25.532C2.85185 25.48 2.9037 25.428 2.95555 25.376C3.05926 25.22 3.16296 24.96 3.37037 24.7C3.78518 24.128 4.35555 23.296 5.23704 22.516C6.94815 20.956 9.74815 19.344 13.9481 19.344C18.1481 19.344 20.8963 20.956 22.6593 22.516C23.5407 23.296 24.163 24.128 24.5259 24.7C24.7333 25.012 24.837 25.22 24.9407 25.376C24.9926 25.48 24.9926 25.532 25.0444 25.532V25.584C25.0444 25.584 25.0444 25.584 26.0815 25.116C27.1185 24.648 27.1185 24.648 27.1185 24.648V24.596C27.1185 24.596 27.1185 24.544 27.0667 24.544C27.0148 24.492 27.0148 24.388 26.9111 24.284C26.8074 24.076 26.6 23.764 26.3926 23.4C25.9259 22.672 25.2 21.736 24.163 20.8C22.0889 18.876 18.7704 17.004 13.8963 17.004C9.02222 17.004 5.75555 18.876 3.62963 20.8C2.59259 21.736 1.86666 22.672 1.4 23.4C1.14074 23.764 0.985183 24.076 0.88148 24.284C0.829628 24.388 0.777776 24.492 0.725924 24.544C0.725924 24.596 0.674072 24.596 0.674072 24.596V24.648C0.777776 24.648 0.777776 24.648 1.81481 25.116Z"/></symbol>
+<symbol id="icon_close" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><path d="M6.6627 6.00075L11.8625 0.800963C12.0455 0.617893 12.0455 0.321081 11.8625 0.138035C11.6794 -0.0450116 11.3826 -0.0450351 11.1995 0.138035L5.99975 5.33782L0.799987 0.138035C0.616917 -0.0450351 0.320105 -0.0450351 0.137058 0.138035C-0.0459882 0.321105 -0.0460116 0.617917 0.137058 0.800963L5.33682 6.00073L0.137058 11.2005C-0.0460116 11.3836 -0.0460116 11.6804 0.137058 11.8634C0.228582 11.955 0.348558 12.0007 0.468534 12.0007C0.588511 12.0007 0.708464 11.955 0.800011 11.8634L5.99975 6.66368L11.1995 11.8634C11.291 11.955 11.411 12.0007 11.531 12.0007C11.651 12.0007 11.7709 11.955 11.8625 11.8634C12.0455 11.6804 12.0455 11.3836 11.8625 11.2005L6.6627 6.00075Z"/></symbol>
+<symbol id="icon_email" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg"><path d="M16.9997 4.33973C16.9997 3.97682 16.8564 3.64849 16.6277 3.39816C16.6239 3.39319 16.623 3.38733 16.6189 3.38233C16.6151 3.37794 16.6098 3.37617 16.6057 3.37208C16.3457 3.10003 15.9792 2.92798 15.5712 2.92798H1.42878C1.02073 2.92798 0.654294 3.10003 0.393687 3.37208C0.389882 3.37617 0.384299 3.37794 0.380493 3.38264C0.376382 3.38733 0.375521 3.39347 0.371716 3.39847C0.143359 3.6488 0 3.97682 0 4.33973V12.6603C0 13.032 0.14922 13.3682 0.387826 13.6207C0.392521 13.6259 0.393993 13.6324 0.399271 13.6374C0.401021 13.6391 0.403076 13.6394 0.404854 13.6412C0.664877 13.9062 1.0269 14.0721 1.42881 14.0721H15.5712C15.9731 14.0721 16.3355 13.9059 16.5952 13.6409C16.5969 13.6394 16.599 13.6389 16.6007 13.6374C16.6057 13.6327 16.6072 13.6263 16.6119 13.6213C16.8508 13.3689 17 13.0324 17 12.6603V4.33973H16.9997ZM11.4355 8.0603L16.3346 3.99821C16.3826 4.10257 16.4111 4.21776 16.4111 4.3397V12.6603C16.4111 12.7705 16.3882 12.8752 16.3486 12.9716L11.4355 8.0603ZM15.5712 3.50983C15.6946 3.50983 15.811 3.53797 15.9168 3.58547L8.49999 9.73475L1.08317 3.58547C1.18901 3.538 1.30539 3.50983 1.42878 3.50983H15.5712ZM0.651377 12.9714C0.611795 12.8752 0.588934 12.7703 0.588934 12.66V4.33973C0.588934 4.21779 0.617378 4.10257 0.665432 3.99824L5.56446 8.06033L0.651377 12.9714ZM1.42878 13.4899C1.29278 13.4899 1.16612 13.4547 1.0524 13.3979L6.01706 8.43527L8.31091 10.3372C8.36543 10.3827 8.43285 10.4055 8.49999 10.4055C8.56712 10.4055 8.63454 10.3827 8.68907 10.3372L10.9829 8.43527L15.9476 13.3979C15.8338 13.4548 15.7072 13.4899 15.5712 13.4899H1.42878Z" /></symbol>
+<symbol id="icon_delivery" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg"><path d="M0.299999 2.49842H2.877V1.59842C2.877 1.25544 3.15502 0.977417 3.498 0.977417H12.45C12.793 0.977417 13.071 1.25544 13.071 1.59842V3.47042H15.489C15.5966 3.47001 15.6962 3.52723 15.75 3.62042L16.968 5.74742H17.7C17.8657 5.74742 18 5.88174 18 6.04742V9.40742C18 9.57309 17.8657 9.70742 17.7 9.70742H16.824C16.6571 10.5847 15.8106 11.1606 14.9332 10.9937C14.2811 10.8696 13.7711 10.3595 13.647 9.70742H12.771C12.7261 9.70622 12.682 9.69493 12.642 9.67442C12.5812 9.69549 12.5173 9.70663 12.453 9.70742H8.529C8.36209 10.5847 7.51556 11.1606 6.63825 10.9937C5.98612 10.8696 5.47609 10.3595 5.352 9.70742H3.498C3.15502 9.70742 2.877 9.42939 2.877 9.08642V6.34742H0.938999C0.773325 6.34742 0.639 6.21309 0.639 6.04742C0.639 5.88174 0.773325 5.74742 0.938999 5.74742H2.877V4.72142H2.538C2.37232 4.72142 2.238 4.58709 2.238 4.42142C2.238 4.25574 2.37232 4.12142 2.538 4.12142H2.877V3.09842H0.299999C0.134325 3.09842 0 2.96409 0 2.79842C0 2.63274 0.134325 2.49842 0.299999 2.49842ZM15.315 4.08242H13.071V5.74742H16.275L15.315 4.08242ZM15.234 10.4244C15.235 10.4244 15.236 10.4244 15.237 10.4244H15.234C15.7973 10.4244 16.254 9.96774 16.254 9.40442C16.254 8.84109 15.7973 8.38442 15.234 8.38442C14.6707 8.38442 14.214 8.84109 14.214 9.40442C14.214 9.96774 14.6707 10.4244 15.234 10.4244ZM13.647 9.10442C13.8139 8.22711 14.6604 7.65126 15.5377 7.81817C16.1899 7.94226 16.6999 8.45229 16.824 9.10442H17.4V6.34742H13.071V9.10442H13.647ZM6.936 10.4244C6.93701 10.4244 6.93799 10.4244 6.939 10.4244H6.936C7.49932 10.4244 7.956 9.96774 7.956 9.40442C7.956 8.84109 7.49932 8.38442 6.936 8.38442C6.37267 8.38442 5.916 8.84109 5.916 9.40442C5.916 9.96774 6.37267 10.4244 6.936 10.4244ZM3.474 2.51042H4.908C5.07367 2.51042 5.208 2.64474 5.208 2.81042C5.208 2.97609 5.07367 3.11042 4.908 3.11042H3.48V4.12442H7.149C7.31468 4.12442 7.449 4.25874 7.449 4.42442C7.449 4.59009 7.31468 4.72442 7.149 4.72442H3.486V5.75042H5.55C5.71567 5.75064 5.84981 5.88516 5.84959 6.05083C5.84936 6.21621 5.71537 6.35019 5.55 6.35042H3.492V9.10742H5.349C5.51591 8.23011 6.36244 7.65426 7.23975 7.82117C7.89187 7.94526 8.40191 8.45529 8.526 9.10742L12.468 9.08942L12.447 1.58942L3.474 1.61042V2.51042Z" /></symbol>
+<symbol id="icon_search" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M19.5264 17.2037L14.9282 12.5423C15.7095 11.2815 16.1629 9.79126 16.1629 8.19198C16.1629 3.66741 12.5446 0 8.08129 0C3.61803 0 0 3.66741 0 8.19198C0 12.7167 3.61786 16.3838 8.08129 16.3838C9.7982 16.3838 11.3885 15.8397 12.6971 14.9151L17.2405 19.5211C17.5562 19.8408 17.9701 20 18.3834 20C18.7973 20 19.2107 19.8408 19.5269 19.5211C20.1578 18.8808 20.1578 17.8438 19.5264 17.2037ZM8.08129 13.7297C5.06453 13.7297 2.61873 11.2506 2.61873 8.19232C2.61873 5.13407 5.06453 2.65476 8.08129 2.65476C11.0982 2.65476 13.5439 5.13407 13.5439 8.19232C13.5439 11.2506 11.0982 13.7297 8.08129 13.7297Z"/></symbol>
+<symbol id="icon_arrov" viewBox="0 0 11 10" xmlns="http://www.w3.org/2000/svg"><path d="M5.80182 7.5809L10.8812 2.96329C11.0436 2.81042 11.0389 2.56683 10.8708 2.41919C10.7067 2.27516 10.4467 2.27516 10.2827 2.41919L5.50257 6.76475L0.722462 2.41919C0.557184 2.26896 0.289227 2.26896 0.123949 2.41919C-0.0413036 2.56947 -0.0413036 2.81304 0.123949 2.96329L5.20331 7.5809C5.36861 7.73113 5.63655 7.73113 5.80182 7.5809Z"/></symbol>
+<symbol id="icon_close_filter" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><path d="M7.95483 6.00035L11.6196 2.33559C12.0245 1.93067 12.0245 1.2742 11.6196 0.869911L11.131 0.381352C10.726 -0.0236925 10.0695 -0.0236925 9.66523 0.381352L6.00059 4.04599L2.33583 0.380593C1.93091 -0.0243252 1.27444 -0.0243252 0.870155 0.380593L0.380837 0.869152C-0.0240811 1.2742 -0.0240811 1.93067 0.380837 2.33496L4.04623 6.00035L0.381596 9.66498C-0.0234484 10.07 -0.0234484 10.7265 0.381596 11.1308L0.870155 11.6193C1.27507 12.0243 1.93155 12.0243 2.33583 11.6193L6.00059 7.95459L9.66523 11.6193C10.0703 12.0243 10.7267 12.0243 11.131 11.6193L11.6196 11.1308C12.0245 10.7257 12.0245 10.0693 11.6196 9.66498L7.95483 6.00035Z"/></symbol>
+<symbol id="icon_filter_mobile" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 1.45461C7.46667 1.45461 7.04 1.89105 7.03022 2.42439C7.04 2.96732 7.46667 3.39399 8 3.39399C8.54311 3.39399 8.96978 2.96732 8.96978 2.42421C8.96978 1.89088 8.54311 1.45461 8 1.45461ZM8 3.24249e-05C9.09582 3.24249e-05 10.0073 0.707943 10.3175 1.69692L15.2727 1.69692C15.68 1.69692 16 2.0267 16 2.42421C16 2.8315 15.68 3.1515 15.2727 3.1515H10.3175C10.0073 4.14065 9.09564 4.84839 8 4.84839C6.91396 4.84839 6.00249 4.14048 5.68249 3.1515L0.727289 3.1515C0.329778 3.1515 0 2.8315 0 2.42421C0 2.0267 0.329778 1.69692 0.727289 1.69692L5.68249 1.69692C6.00249 0.707943 6.91396 3.24249e-05 8 3.24249e-05Z"/>
+<path d="M4.36356 7.03006C3.83022 7.03006 3.40356 7.4665 3.39378 7.99983C3.40356 8.54294 3.83022 8.96961 4.36356 8.96961C4.90667 8.96961 5.33333 8.54294 5.33333 7.99983C5.33333 7.4665 4.90667 7.03006 4.36356 7.03006ZM4.36356 5.57565C5.45938 5.57565 6.37084 6.28357 6.68107 7.27254L15.2725 7.27254C15.68 7.27254 16 7.60232 16 7.99983C16 8.40712 15.68 8.72712 15.2727 8.72712H6.68124C6.37102 9.71628 5.45938 10.424 4.36373 10.424C3.27769 10.424 2.36622 9.7161 2.05582 8.72712H0.727289C0.329778 8.72712 0 8.40712 0 7.99983C0 7.60232 0.329778 7.27254 0.727289 7.27254H2.05582C2.36604 6.28339 3.27751 5.57565 4.36356 5.57565Z"/>
+<path d="M11.6364 12.6062C11.1031 12.6062 10.6764 13.0427 10.6667 13.576C10.6764 14.1191 11.1031 14.5458 11.6364 14.5458C12.1796 14.5458 12.6062 14.1191 12.6062 13.576C12.606 13.0427 12.1794 12.6062 11.6364 12.6062ZM11.6364 11.1517C12.7323 11.1517 13.6437 11.8596 13.954 12.8485H15.2727C15.68 12.8485 16 13.1783 16 13.5758C16 13.9831 15.68 14.3031 15.2727 14.3031H13.954C13.6436 15.2923 12.7321 16.0002 11.6364 16.0002C10.5504 16.0002 9.63893 15.2923 9.32853 14.3033H0.727289C0.329778 14.3033 0 13.9833 0 13.576C0 13.1785 0.329778 12.8487 0.727289 12.8487H9.32853C9.63876 11.8596 10.5502 11.1517 11.6364 11.1517Z"/></symbol>
+<symbol id="icon_sort_by" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M0.8887 4.86422H9.84441V3.08679H0.8887C0.397906 3.08679 0 3.4847 0 3.97549C0 4.46628 0.397906 4.86422 0.8887 4.86422Z"/>
+<path d="M0.8887 8.43075H9.84441V6.65332H0.8887C0.397906 6.65332 0 7.05123 0 7.54205C0 8.03288 0.397906 8.43075 0.8887 8.43075Z"/>
+<path d="M0.8887 10.2198V10.2198C0.397906 10.2198 0 10.6177 0 11.1085C0 11.5994 0.397906 11.9972 0.8887 11.9972H7.11047C7.04018 11.7808 7.00308 11.5525 7.00308 11.3183C7.00308 10.9261 7.10591 10.55 7.29798 10.2198H0.8887Z"/>
+<path d="M15.6707 10.5236C15.2318 10.0847 14.5202 10.0847 14.0813 10.5236L13.1585 11.4464V1.84059C13.1585 1.21987 12.6553 0.716736 12.0346 0.716736C11.4139 0.716736 10.9107 1.21991 10.9107 1.84059V11.4464L9.98792 10.5236C9.54901 10.0848 8.83742 10.0847 8.39852 10.5236C7.95961 10.9625 7.95961 11.6741 8.39852 12.113L11.2397 14.9542C11.6778 15.3924 12.3902 15.3939 12.8295 14.9542L15.6707 12.113C16.1095 11.6741 16.1096 10.9625 15.6707 10.5236Z"/></symbol>
+<symbol id="icon_sale" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path d="M73.18732,80.98979a3.15019,3.15019,0,0,0-3.09825-4.172,7.41442,7.41442,0,0,0-7.31694,6.3705,3.15591,3.15591,0,0,0,3.181,3.64787A7.37207,7.37207,0,0,0,73.18732,80.98979Zm0,0a3.15019,3.15019,0,0,0-3.09825-4.172,7.41442,7.41442,0,0,0-7.31694,6.3705,3.15591,3.15591,0,0,0,3.181,3.64787A7.37207,7.37207,0,0,0,73.18732,80.98979ZM67.9967,122.57412l55.9381-64.51554a5.7309,5.7309,0,0,0,1.18625-5.03993L123.4552,13.31659a11.961,11.961,0,0,0-8.90848-8.84484L74.51786,2.99265a5.73912,5.73912,0,0,0-4.99961,1.19686L5.3019,59.87932a7.25134,7.25134,0,0,0-.46049,10.6762l52.47911,52.47911A7.25132,7.25132,0,0,0,67.9967,122.57412ZM108.29505,19.581a10.28769,10.28769,0,1,1-14.549,0A10.28855,10.28855,0,0,1,108.29505,19.581ZM49.78712,45.79506A12.77414,12.77414,0,0,1,61.293,35.66849a8.34808,8.34808,0,0,1,9.161,9.28411c-.713,6.83308-7.38487,12.01522-13.99937,10.87567A8.31845,8.31845,0,0,1,49.78712,45.79506Zm-4.78317,25.2358c-1.95446.44776-2.31307.225-2.7778-1.71676-.71939-3.11735-.72787-3.13433,2.32791-3.83883q19.39481-4.44683,38.79594-8.883c1.64885-.37985,2.07325-.09551,2.46158,1.50665.20585.77458.38622,1.5364.55176,2.26217-.1167,1.08438-.85732,1.38784-1.70616,1.57457-4.64735,1.0653-9.31169,2.13484-13.95693,3.198Q57.85,68.07165,45.00395,71.03086ZM64.42522,91.8103a8.08953,8.08953,0,0,1-6.74183-8.90215c.46474-7.07713,7.79016-12.61152,14.50868-10.99874a8.08059,8.08059,0,0,1,6.24316,8.24217C78.19756,87.29026,71.34536,93.00506,64.42522,91.8103Zm5.66385-14.99252a7.41442,7.41442,0,0,0-7.31694,6.3705,3.15591,3.15591,0,0,0,3.181,3.64787,7.37207,7.37207,0,0,0,7.23416-5.84636A3.15019,3.15019,0,0,0,70.08907,76.81778ZM61.92118,40.84636a7.26552,7.26552,0,0,0-7.08988,6.55512,3.02038,3.02038,0,0,0,3.08553,3.43778,7.45886,7.45886,0,0,0,7.35938-6.014C65.59875,42.35942,64.39977,40.91852,61.92118,40.84636ZM73.18732,80.98979a3.15019,3.15019,0,0,0-3.09825-4.172,7.41442,7.41442,0,0,0-7.31694,6.3705,3.15591,3.15591,0,0,0,3.181,3.64787A7.37207,7.37207,0,0,0,73.18732,80.98979Zm0,0a3.15019,3.15019,0,0,0-3.09825-4.172,7.41442,7.41442,0,0,0-7.31694,6.3705,3.15591,3.15591,0,0,0,3.181,3.64787A7.37207,7.37207,0,0,0,73.18732,80.98979Z"/></symbol>
+</svg>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
